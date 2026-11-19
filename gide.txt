@@ -1,0 +1,11 @@
+#set theh Api key :
+set GEMINI_API_KEY=dzf....
+
+
+#run the server 
+uv run agentspan server start
+
+
+
+#for running the agents 
+uv run .\agents\agent1.py

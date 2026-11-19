@@ -1,0 +1,22 @@
+[project]
+name = "ai-agent-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "yassine somai", email = "yassinesomai10@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "agentspan>=0.2.0",
+    "firecrawl-py>=4.57.0",
+    "pydantic>=2.14.4",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+ai-agent-tutorial = "ai_agent_tutorial:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
